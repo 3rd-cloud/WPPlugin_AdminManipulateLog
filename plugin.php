@@ -27,7 +27,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 if ( ! class_exists( 'WPAdmin_Manipulate_Log' ) ) {
     class WPAdmin_Manipulate_Log {
-        private $textdomain = 'wpadmin-manipulate-log';
+        // private $textdomain = 'wpadmin-manipulate-log';
 
         public function __construct() {
             // load_textdomain( $this->textdomain, __DIR__ . '/languages/plugin-' . get_locale() . '.mo' );
